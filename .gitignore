@@ -1,0 +1,27 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+.venv312/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Git
+.git/
+
+# Logs
+*.log
+
+# Local editor settings
+.vscode/
+
+# Generated crime datasets
+data/raw/
+data/processed/

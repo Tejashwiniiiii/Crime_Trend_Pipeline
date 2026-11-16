@@ -1,0 +1,16 @@
+
+services:
+  crime-dashboard:
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+
+    container_name: crime_analytics_dashboard
+
+    ports:
+      - "9000:8501"
+
+    env_file:
+      - .env
+
+    restart: always
